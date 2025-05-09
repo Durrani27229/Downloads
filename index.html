@@ -9,23 +9,43 @@
 </head>
 <body class="bg-base-100 text-base-content">
 
-  <!-- Navbar -->
-  <div class="navbar bg-base-200 shadow-md px-4">
-    <div class="flex-1">
-      <a class="text-xl font-bold">Canned Delights</a>
-    </div>
-    <div class="flex-none">
-      <ul class="menu menu-horizontal px-1 hidden md:flex">
-        <li><a>Home</a></li>
-        <li><a>About</a></li>
-        <li><a>Products</a></li>
-        <li><a>Contact</a></li>
-      </ul>
-    </div>
-  </div>
+    <div class="navbar bg-base-200 px-4 shadow-md">
+        <div class="flex-1">
+          <a class="text-xl font-bold">Canned Delights</a>
+        </div>
+      
+        <!-- Hamburger for small screens -->
+        <div class="dropdown dropdown-end md:hidden">
+          <label tabindex="0" class="btn btn-ghost btn-square">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </label>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Products</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+      
+        <!-- Horizontal menu for medium+ screens -->
+        <div class="hidden md:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Products</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      
+  
 
   <!-- Hero Section -->
-  <section class="hero min-h-[80vh] bg-[url('https://images.unsplash.com/photo-1608830598933-36f4bfc4f3f3?auto=format&fit=crop&w=1650&q=80')] bg-cover bg-center text-white">
+  <section class="hero min-h-[80vh] bg-[url('https://scontent.fkhi22-1.fna.fbcdn.net/v/t1.6435-9/152056606_1800839320093059_1427673310997033667_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=4ADWnMWQpgUQ7kNvwFyQYWg&_nc_oc=AdmdAlVvYpki_I2O4Wn5hWvxD0lqvojqy8bvr8KbIrZv0Ox4JVOHCAWC8cJI7Prc_AU&_nc_zt=23&_nc_ht=scontent.fkhi22-1.fna&_nc_gid=IBxArit4Q3mcEfHqOR56UQ&oh=00_AfI-quoAdk05xpyMlwfMSJZZK_rfl_1qSsBwzgayMTocfQ&oe=6845E6A2')] bg-cover bg-center text-white">
     <div class="hero-overlay bg-black bg-opacity-50"></div>
     <div class="hero-content text-center">
       <div class="max-w-md">
@@ -62,6 +82,55 @@
         <div class="card-body">
           <h3 class="card-title">Canned Jalapeños</h3>
           <p>Spicy and preserved for long shelf life—great for pizzas and snacks.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl">
+        <figure><img src="https://source.unsplash.com/400x300/?olives,food" alt="Olives" /></figure>
+        <div class="card-body">
+          <h3 class="card-title">Canned Olives</h3>
+          <p>Green and black olives, imported and packed with flavor.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl">
+        <figure><img src="https://source.unsplash.com/400x300/?olives,food" alt="Olives" /></figure>
+        <div class="card-body">
+          <h3 class="card-title">Canned Olives</h3>
+          <p>Green and black olives, imported and packed with flavor.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl">
+        <figure><img src="https://source.unsplash.com/400x300/?olives,food" alt="Olives" /></figure>
+        <div class="card-body">
+          <h3 class="card-title">Canned Olives</h3>
+          <p>Green and black olives, imported and packed with flavor.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl">
+        <figure><img src="https://source.unsplash.com/400x300/?olives,food" alt="Olives" /></figure>
+        <div class="card-body">
+          <h3 class="card-title">Canned Olives</h3>
+          <p>Green and black olives, imported and packed with flavor.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl">
+        <figure><img src="https://source.unsplash.com/400x300/?olives,food" alt="Olives" /></figure>
+        <div class="card-body">
+          <h3 class="card-title">Canned Olives</h3>
+          <p>Green and black olives, imported and packed with flavor.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl">
+        <figure><img src="https://source.unsplash.com/400x300/?olives,food" alt="Olives" /></figure>
+        <div class="card-body">
+          <h3 class="card-title">Canned Olives</h3>
+          <p>Green and black olives, imported and packed with flavor.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl">
+        <figure><img src="https://source.unsplash.com/400x300/?olives,food" alt="Olives" /></figure>
+        <div class="card-body">
+          <h3 class="card-title">Canned Olives</h3>
+          <p>Green and black olives, imported and packed with flavor.</p>
         </div>
       </div>
       <div class="card bg-base-100 shadow-xl">
